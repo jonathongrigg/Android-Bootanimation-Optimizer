@@ -1,0 +1,13 @@
+Bash script that optimizes a user selectable number of .png images in the form boot_xxxxx.png to reduce size using pngnq.
+
+REQUIREMENTS
+pngnq
+
+USE
+1. Place script into directory with all boot_xxxxx.png images inside (preferably with all consecutive numbers present)
+2. Set permissions to allow executing as a program
+3. Open a command prompt, and cd (change directory) into the directory where the script and images are located
+4. Run the script with the total number of images (highest number if you are missing consecutive numbers) as a parameter using the following
+	./optimizepng.sh *number of images*
+5. Let the script run and watch as your images can be reduced as much as 60% in size!
+
