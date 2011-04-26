@@ -2,6 +2,7 @@ Bash script that optimizes a user selectable number of .png images in the form b
 
 REQUIREMENTS
 pngnq
+PNG images in the form boot_xxxxx.png (for example boot_00001.png through to boot_00057.png) - must have 5 digits!
 
 USE
 1. Place script into directory with all boot_xxxxx.png images inside (preferably with all consecutive numbers present)
